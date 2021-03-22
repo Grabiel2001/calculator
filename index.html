@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+	<div class="calculator">
+		<p id="mark">SAMSUNG</p>
+		<table class="display">
+			<tr>
+				<td colspan="4" id="result"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><button id="btn-record" onclick="showRecord()">Historial</button></td>
+				<td colspan="2"><button id="btn-delete" onclick="delet()"><==</button></td>
+			</tr>
+			<tr>
+				<td><button class="btn-operations" onclick="reset()">C</button></td>
+				<td><button class="btn-operations" onclick="insertParenthesis()">()</button></td>
+				<td><button class="btn-operations" onclick="pressOperations('%')">%</button></td>
+				<td><button class="btn-operations" onclick="pressOperations('/')">/</button></td>
+			</tr>
+			<tr>
+				<td><button class="btn-ordinary" onclick="insert('7')">7</button></td>
+				<td><button class="btn-ordinary" onclick="insert('8')">8</button></td>
+				<td><button class="btn-ordinary" onclick="insert('9')">9</button></td>
+				<td><button class="btn-operations" onclick="pressOperations('*')">*</button></td>
+			</tr>
+			<tr>
+				<td><button class="btn-ordinary" onclick="insert('4')">4</button></td>
+				<td><button class="btn-ordinary" onclick="insert('5')">5</button></td>
+				<td><button class="btn-ordinary" onclick="insert('6')">6</button></td>
+				<td><button class="btn-operations" onclick="pressOperations('-')">-</button></td>
+			</tr>
+			<tr>
+				<td><button class="btn-ordinary" onclick="insert('1')">1</button></td>
+				<td><button class="btn-ordinary" onclick="insert('2')">2</button></td>
+				<td><button class="btn-ordinary" onclick="insert('3')">3</button></td>
+				<td><button class="btn-operations" onclick="pressOperations('+')">+</button></td>
+			</tr>
+			<tr>
+				<td><button class="btn-ordinary" onclick="changeSign()">+/-</button></td>
+				<td><button class="btn-ordinary" onclick="insert('0')">0</button></td>
+				<td><button class="btn-ordinary" onclick="insertPoint()">.</button></td>
+				<td><button id="equal" onclick="resolve()">=</button></td>
+			</tr>
+		</table>
+	</div>
+	<script src="app.js"></script>
+</body>
+</html>
