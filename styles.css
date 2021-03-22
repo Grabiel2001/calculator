@@ -1,0 +1,106 @@
+body {
+	background: #222;
+	font-family: sans-serif;
+}
+
+#mark {
+	font-family: tahoma;
+	text-align: center;
+	color: #ddd;
+	margin-top: -28px;
+}
+
+.calculator {
+	display: block;
+	width: 255px;
+	height: 425px;
+	margin: 0 auto;
+	padding: 50px 10px;
+	background: #000;
+	border: 3px solid #aaa;
+	border-radius: 20px;
+}
+
+.display {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+}
+
+.btn-ordinary {
+	display: block;
+	font-size: 23px;
+	width: 60px;
+	height: 55px;
+	border: none;
+	border: 1px solid #ccc;
+	background: #fff;
+}
+
+.btn-ordinary:hover {
+	background: #ddd;
+}
+
+.btn-operations {
+	display: block;
+	font-size: 23px;
+	width: 60px;
+	height: 55px;
+	border: none;
+	border: 1px solid #ccc;
+	color: #24f;
+	background: #eee;
+}
+
+.btn-operations:hover {
+	background: #ddd;
+}
+
+#btn-record {
+	font-weight: 700;
+	font-size: 15px;
+	width: 120px;
+	height: 30px;
+	color: #27f;
+	border: none;
+	text-align: left;
+	background: #fff;
+}
+
+#btn-delete {
+	font-weight: 700;
+	font-size: 15px;
+	width: 120px;
+	height: 30px;
+	color: #27f;
+	border: none;
+	text-align: right;
+	background: #fff;
+}
+
+#result {
+	width: 100%;
+	height: 108px;
+	font-size: 40px;
+	text-align: right;
+}
+
+#equal {
+	display: block;
+	font-size: 27px;
+	width: 60px;
+	height: 55px;
+	border: none;
+	border: 1px solid #ccc;
+	color: #fff;
+	background: #4e2;
+}
+
+#equal:hover {
+	background: #3c2;
+}
+
+.green {
+	color: #1a3;
+}
